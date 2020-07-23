@@ -14,7 +14,10 @@ Ext.define('Admin.view.main.MainController', {
         }
     },
 
+    // routes 是作为 config 对象而不是根出现的，所以其作用域可以被很好的控制。
     routes: {
+        // 根据：:node这个hash值，执行setCurrentView这个方法
+        // 仅在该 controller 的作用范围内有效
         ':node': 'setCurrentView'
     },
 

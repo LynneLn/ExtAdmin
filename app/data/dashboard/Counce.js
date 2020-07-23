@@ -1,3 +1,4 @@
+// 一些模拟数据
 Ext.define('Admin.data.dashboard.Counce', {
     extend: 'Admin.data.Simulated',
 

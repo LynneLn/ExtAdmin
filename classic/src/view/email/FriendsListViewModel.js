@@ -8,7 +8,7 @@ Ext.define('Admin.view.email.FriendsListViewModel', {
             //Store reference
             type: 'emailfriends',
 
-            //Auto load
+            //自动加载
             autoLoad: true
         }
     }

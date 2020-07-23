@@ -1,3 +1,4 @@
+// 通过使用 app.json 把所有的应用程序元数据都存放在了一个位置，之后 Sencha Cmd 就可以使用简单有效的方式编译你的应用。
 {
     /**
      * The application's namespace.

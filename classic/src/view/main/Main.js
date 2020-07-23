@@ -1,3 +1,5 @@
+// 是个视图
+// View 不包含任何应用程序逻辑。所有的视图逻辑应该被放在 ViewController 里
 Ext.define('Admin.view.main.Main', {
     extend: 'Ext.container.Viewport',
 
@@ -6,7 +8,13 @@ Ext.define('Admin.view.main.Main', {
         'Ext.list.Tree'
     ],
 
+    // controller 配置为你的 View 指定了 ViewController。
+    // 当通过这种方式完成指定后，对应的 ViewController 就成为了你的事件处理方法和相关引用的容器。
+    // 同时建立了与通过 View 触发的组件和事件之间的一一对应关系。
     controller: 'main',
+    // viewModel 配置为 View 指定了 ViewModel。
+    // ViewModel 是此组件及其子组件的数据提供者。
+    // ViewModel 中包含的数据通常通过添加绑定配置用在需要展示或编辑这些数据的组件中。
     viewModel: 'main',
 
     cls: 'sencha-dash-viewport',
