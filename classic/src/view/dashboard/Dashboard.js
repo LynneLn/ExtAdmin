@@ -21,8 +21,8 @@ Ext.define('Admin.view.dashboard.Dashboard', {
         {
             xtype: 'network',
 
-            // 60% width when viewport is big enough,
-            // 100% when viewport is small
+            // 当viewport足够大时，宽度为60%，
+            // 视窗小时为100%
             userCls: 'big-60 small-100'
         },
         {
@@ -53,6 +53,10 @@ Ext.define('Admin.view.dashboard.Dashboard', {
         {
             xtype: 'services',
             userCls: 'big-40 small-100'
-        }
+        },
+        // {
+        //     xtype: 'importFile',
+        //     userCls: 'big-40 small-100'
+        // }
     ]
 });

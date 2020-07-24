@@ -27,26 +27,18 @@
 
     },
 
-    /**
-     * This is the folder for build outputs in the workspace.
-     */
+    //  这是工作区中用于生成输出的文件夹。
     "build": {
         "dir": "${workspace.dir}/build"
     },
-
-    /**
-     * These configs determine where packages are generated and extracted to (when downloaded).
-     */
+    
+     //这些配置决定了包被生成和解压到哪里(当下载时)。
     "packages": {
-        /**
-         * This folder contains all local packages.
-         * If a comma-separated string is used as value the first path will be used as the path to generate new packages.
-         */
+        // 此文件夹包含所有本地包。
+        // 如果使用逗号分隔的字符串作为值，则第一个路径将用作生成新包的路径。
         "dir": "${workspace.dir}/packages/local,${workspace.dir}/packages",
 
-        /**
-         * This folder contains all extracted (remote) packages.
-         */
+        // 这个文件夹包含所有被解压的(远程)包。
         "extract": "${workspace.dir}/packages/remote"
     }
 }

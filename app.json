@@ -187,26 +187,24 @@
      *      }
      *
      */
-    "js": [{
-        "path": "app.js",
-        "bundle": true
-    }],
+    "js": [
+        {"path": "app.js","bundle": true}
+    ],
 
-    /**
-     * Settings specific to classic toolkit builds.
-     */
+    // 特定于classic工具包构建的设置。
     "classic": {
         "js": [
-//            // Remove this entry to individually load sources from the framework.
+//            // 删除此条目以从框架单独加载源。
 //            {
 //                "path": "${framework.dir}/build/ext-all-rtl-debug.js"
 //            }
+            { "path": "packages/jsZip/jszip.js" }
         ]
     },
 
-    /**
-     * Settings specific to modern toolkit builds.
-     */
+    
+    // 特定于modern工具包构建的设置。
+    
     "modern": {
         "js": [
 //            // Remove this entry to individually load sources from the framework.
