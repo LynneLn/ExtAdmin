@@ -3,7 +3,7 @@
 //     xtype: 'importFile',
 
 //     requires: [
-       
+
 //     ],
 
 //     title: 'Import File',
@@ -39,7 +39,6 @@
 //                 console.log('click el',zip); 
 // zip.generateAsync({type:"blob"})
 // .then(function(content) {
-
 
 
 //     var urlObject = window.URL || window.webkitURL || window;

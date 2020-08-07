@@ -1,19 +1,19 @@
 Ext.define('Admin.store.search.Users', {
-    extend: 'Ext.data.Store',
+  extend: 'Ext.data.Store',
 
-    alias: 'store.searchusers',
+  alias: 'store.searchusers',
 
-    model: 'Admin.model.search.User',
+  model: 'Admin.model.search.User',
 
-    proxy: {
-        type: 'api',
-        url: '~api/search/users'
-    },
+  proxy: {
+    type: 'api',
+    url: '~api/search/users'
+  },
 
-    autoLoad: 'true',
+  autoLoad: 'true',
 
-    sorters: {
-        direction: 'ASC',
-        property: 'fullname'
-    }
+  sorters: {
+    direction: 'ASC',
+    property: 'fullname'
+  }
 });

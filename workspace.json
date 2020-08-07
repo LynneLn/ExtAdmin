@@ -1,43 +1,43 @@
 {
-    /**
-     * 一个包含键值对框架描述符的对象。
-     *
-     *该值应该是一个包含“路径”的对象，该路径在框架所在的工作空间内
-     *可以找到文件并“版本化”框架的版本。例如:
-     *      "frameworks": {
-     *          "ext": {
-     *              "path": "ext",
-     *              "version": "n.n.n.n"
-     *          },
-     *          "extnew": {
-     *              "path": "extnew",
-     *              "version": "n.n.n.n"
-     *          }
-     *      }
-     *
-     * 您可以从源代码控制中排除包含框架的目录，然后恢复它们
-     * 与“sencha工作区安装”。更多信息请参见“sencha帮助工作区安装”。
-     *
-     */
-    "frameworks": {        "ext": {
-            "path":"ext",
-            "version":"7.0.0.122"
-        }
-
-    },
-
-    //  这是工作区中用于生成输出的文件夹。
-    "build": {
-        "dir": "${workspace.dir}/build"
-    },
-
-     //这些配置决定了包被生成和解压到哪里(当下载时)。
-    "packages": {
-        // 此文件夹包含所有本地包。
-        // 如果使用逗号分隔的字符串作为值，则第一个路径将用作生成新包的路径。
-        "dir": "${workspace.dir}/packages/local,${workspace.dir}/packages",
-
-        // 这个文件夹包含所有被解压的(远程)包。
-        "extract": "${workspace.dir}/packages/remote"
+  /**
+   * 一个包含键值对框架描述符的对象。
+   *
+   *该值应该是一个包含“路径”的对象，该路径在框架所在的工作空间内
+   *可以找到文件并“版本化”框架的版本。例如:
+   *      "frameworks": {
+   *          "ext": {
+   *              "path": "ext",
+   *              "version": "n.n.n.n"
+   *          },
+   *          "extnew": {
+   *              "path": "extnew",
+   *              "version": "n.n.n.n"
+   *          }
+   *      }
+   *
+   * 您可以从源代码控制中排除包含框架的目录，然后恢复它们
+   * 与“sencha工作区安装”。更多信息请参见“sencha帮助工作区安装”。
+   *
+   */
+  "frameworks": {
+    "ext": {
+      "path": "ext",
+      "version": "7.0.0.122"
     }
+  },
+
+  //  这是工作区中用于生成输出的文件夹。
+  "build": {
+    "dir": "${workspace.dir}/build"
+  },
+
+  //这些配置决定了包被生成和解压到哪里(当下载时)。
+  "packages": {
+    // 此文件夹包含所有本地包。
+    // 如果使用逗号分隔的字符串作为值，则第一个路径将用作生成新包的路径。
+    "dir": "${workspace.dir}/packages/local,${workspace.dir}/packages",
+
+    // 这个文件夹包含所有被解压的(远程)包。
+    "extract": "${workspace.dir}/packages/remote"
+  }
 }

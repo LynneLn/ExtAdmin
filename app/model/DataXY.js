@@ -1,12 +1,12 @@
 Ext.define('Admin.model.DataXY', {
-    extend: 'Admin.model.Base',
+  extend: 'Admin.model.Base',
 
-    fields: [
-        {
-            name: 'xvalue'
-        },
-        {
-            name: 'yvalue'
-        }
-    ]
+  fields: [
+    {
+      name: 'xvalue'
+    },
+    {
+      name: 'yvalue'
+    }
+  ]
 });

@@ -7,3 +7,6 @@ Ext.define('Admin.proxy.API', {
         rootProperty: 'data'
     }
 });
+//使用方法：proxy：{
+// type:'api'
+// }

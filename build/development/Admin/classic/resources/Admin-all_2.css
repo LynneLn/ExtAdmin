@@ -12899,32 +12899,32 @@ tr.x-grid-subtable-row {
 .profiledescription-social-toolbar {
     border-top: 1px solid #ddd !important;
 }
-/* D:/workspace/myAdmin/app/view/profile/UserProfileBase.scss:334 */
+/* D:/workspace/myAdmin/app/view/profile/UserProfileBase.scss:335 */
 @media (max-width: 450px) {
-    /* D:/workspace/myAdmin/app/view/profile/UserProfileBase.scss:336 */
+    /* D:/workspace/myAdmin/app/view/profile/UserProfileBase.scss:337 */
     .userProfile-container .comments h4,
     .userProfile-container .comments .from-now {
         float: none;
     }
-    /* D:/workspace/myAdmin/app/view/profile/UserProfileBase.scss:340 */
+    /* D:/workspace/myAdmin/app/view/profile/UserProfileBase.scss:341 */
     .userProfile-container .comments .from-now {
         margin-bottom: 10px;
     }
-    /* D:/workspace/myAdmin/app/view/profile/UserProfileBase.scss:343 */
+    /* D:/workspace/myAdmin/app/view/profile/UserProfileBase.scss:344 */
     .userProfile-container .comments h4 {
         margin: 0;
     }
 }
-/* D:/workspace/myAdmin/app/view/profile/UserProfileBase.scss:349 */
+/* D:/workspace/myAdmin/app/view/profile/UserProfileBase.scss:350 */
 @media (max-width: 350px) {
-    /* D:/workspace/myAdmin/app/view/profile/UserProfileBase.scss:350 */
+    /* D:/workspace/myAdmin/app/view/profile/UserProfileBase.scss:351 */
     .timeline-items-wrap {
         display: none;
     }
 }
-/* D:/workspace/myAdmin/app/view/profile/UserProfileBase.scss:355 */
+/* D:/workspace/myAdmin/app/view/profile/UserProfileBase.scss:356 */
 @media (max-width: 420px) {
-    /* D:/workspace/myAdmin/app/view/profile/UserProfileBase.scss:356 */
+    /* D:/workspace/myAdmin/app/view/profile/UserProfileBase.scss:357 */
     .profiledescription-social-toolbar {
         display: none !important;
     }

@@ -1,14 +1,14 @@
-Ext.define('Admin.view.email.EmailModel', {
-    extend: 'Ext.app.ViewModel',
-    alias: 'viewmodel.email',
+Ext.define("Admin.view.email.EmailModel", {
+  extend: "Ext.app.ViewModel",
+  alias: "viewmodel.email",
 
-    stores: {
-        inbox: {
-            type: 'inbox'
-        },
+  stores: {
+    inbox: {
+      type: "inbox",
+    },
 
-        friends: {
-            type: 'emailfriends'
-        }
-    }
+    friends: {
+      type: "emailfriends",
+    },
+  },
 });

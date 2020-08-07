@@ -1,25 +1,25 @@
 Ext.define('Admin.view.charts.ChartBase', {
-    extend: 'Ext.Panel',
+  extend: 'Ext.Panel',
 
-    height: 300,
-    ui: 'light',
-    layout: 'fit',
+  height: 300,
+  ui: 'light',
+  layout: 'fit',
 
-    platformConfig: {
-        classic: {
-            cls: 'quick-graph-panel shadow',
-            headerPosition: 'bottom'
-        },
-        modern: {
-            cls: 'quick-graph-panel',
-            shadow: true,
-            header: {
-                docked: 'bottom'
-            }
-        }
+  platformConfig: {
+    classic: {
+      cls: 'quick-graph-panel shadow',
+      headerPosition: 'bottom'
     },
-
-    defaults: {
-        width: '100%'
+    modern: {
+      cls: 'quick-graph-panel',
+      shadow: true,
+      header: {
+        docked: 'bottom'
+      }
     }
+  },
+
+  defaults: {
+    width: '100%'
+  }
 });

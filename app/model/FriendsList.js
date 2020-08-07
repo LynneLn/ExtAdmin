@@ -1,12 +1,12 @@
 Ext.define('Admin.model.FriendsList', {
-    extend: 'Admin.model.Base',
+  extend: 'Admin.model.Base',
 
-    fields: [
-        {
-            name: 'friendsName'
-        },
-        {
-            name: 'connectionStatus'
-        }
-    ]
+  fields: [
+    {
+      name: 'friendsName'
+    },
+    {
+      name: 'connectionStatus'
+    }
+  ]
 });

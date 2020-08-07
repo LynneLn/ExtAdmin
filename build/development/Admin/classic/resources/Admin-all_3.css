@@ -10999,54 +10999,54 @@
 .overflow-ellipsis {
     overflow: hidden;
 }
-/* D:/workspace/myAdmin/classic/src/view/dashboard/Dashboard.scss:95 */
+/* D:/workspace/myAdmin/classic/src/view/dashboard/Dashboard.scss:96 */
 .pie-legend-container {
     font-size: 11px;
     text-overflow: ellipsis;
 }
-/* D:/workspace/myAdmin/classic/src/view/dashboard/Dashboard.scss:99 */
+/* D:/workspace/myAdmin/classic/src/view/dashboard/Dashboard.scss:100 */
 .pie-legend-container .quick-graph-pie-legend {
     height: 15px;
     width: 15px;
 }
-/* D:/workspace/myAdmin/classic/src/view/dashboard/Dashboard.scss:104 */
+/* D:/workspace/myAdmin/classic/src/view/dashboard/Dashboard.scss:105 */
 .pie-legend-container .x-autocontainer-innerCt {
     padding-left: 10px;
     text-overflow: ellipsis;
     overflow: hidden;
     line-height: 14px;
 }
-/* D:/workspace/myAdmin/classic/src/view/dashboard/Dashboard.scss:112 */
+/* D:/workspace/myAdmin/classic/src/view/dashboard/Dashboard.scss:113 */
 .bottom-indent {
     margin-bottom: 16px;
 }
-/* D:/workspace/myAdmin/classic/src/view/dashboard/Dashboard.scss:116 */
+/* D:/workspace/myAdmin/classic/src/view/dashboard/Dashboard.scss:117 */
 .left-aligned-div {
     float: left;
 }
-/* D:/workspace/myAdmin/classic/src/view/dashboard/Dashboard.scss:120 */
+/* D:/workspace/myAdmin/classic/src/view/dashboard/Dashboard.scss:121 */
 .right-aligned-div {
     float: right;
 }
-/* D:/workspace/myAdmin/classic/src/view/dashboard/Dashboard.scss:123 */
+/* D:/workspace/myAdmin/classic/src/view/dashboard/Dashboard.scss:125 */
 .services-text {
     margin: 0 0 10px 5px;
     height: 86px;
     text-overflow: ellipsis;
     overflow: hidden;
 }
-/* D:/workspace/myAdmin/classic/src/view/dashboard/Dashboard.scss:130 */
+/* D:/workspace/myAdmin/classic/src/view/dashboard/Dashboard.scss:132 */
 .services-legend {
     min-width: 240px;
 }
-/* D:/workspace/myAdmin/classic/src/view/dashboard/Dashboard.scss:133 */
+/* D:/workspace/myAdmin/classic/src/view/dashboard/Dashboard.scss:135 */
 .services-legend div {
     width: 15px;
     height: 15px;
     float: left;
     margin: 1px 5px 0 0;
 }
-/* D:/workspace/myAdmin/classic/src/view/dashboard/Dashboard.scss:140 */
+/* D:/workspace/myAdmin/classic/src/view/dashboard/Dashboard.scss:142 */
 .services-legend span {
     font-size: 11px;
     width: 33%;
@@ -11054,23 +11054,23 @@
     text-overflow: ellipsis;
     overflow: hidden;
 }
-/* D:/workspace/myAdmin/classic/src/view/dashboard/Dashboard.scss:149 */
+/* D:/workspace/myAdmin/classic/src/view/dashboard/Dashboard.scss:151 */
 .service-finance .x-progress-bar,
 .legend-finance {
     background-color: #ffc000;
 }
-/* D:/workspace/myAdmin/classic/src/view/dashboard/Dashboard.scss:153 */
+/* D:/workspace/myAdmin/classic/src/view/dashboard/Dashboard.scss:156 */
 .service-research .x-progress-bar,
 .legend-research,
 .widget-progressbar .x-progress-bar {
     background-color: #6aa5db;
 }
-/* D:/workspace/myAdmin/classic/src/view/dashboard/Dashboard.scss:159 */
+/* D:/workspace/myAdmin/classic/src/view/dashboard/Dashboard.scss:162 */
 .service-marketing .x-progress-bar,
 .legend-marketing {
     background-color: #ee929c;
 }
-/* D:/workspace/myAdmin/classic/src/view/dashboard/Dashboard.scss:164 */
+/* D:/workspace/myAdmin/classic/src/view/dashboard/Dashboard.scss:167 */
 .force-notext-button,
 .force-notext-button .x-frame-mc {
     background-color: #56b750;
@@ -11100,11 +11100,11 @@
 .force-notext-button .x-frame-mc:hover .x-btn-icon-el-default-toolbar-small {
     color: #56b750;
 }
-/* D:/workspace/myAdmin/classic/src/view/dashboard/Dashboard.scss:169 */
+/* D:/workspace/myAdmin/classic/src/view/dashboard/Dashboard.scss:172 */
 .white-panel {
     background: #fff;
 }
-/* D:/workspace/myAdmin/classic/src/view/dashboard/Dashboard.scss:174 */
+/* D:/workspace/myAdmin/classic/src/view/dashboard/Dashboard.scss:177 */
 .x-tool-wrench {
     font: 16px/1 'Font Awesome 5 Free';
     background: none;

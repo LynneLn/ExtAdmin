@@ -1,12 +1,12 @@
 Ext.define('Admin.model.YearwiseData', {
-    extend: 'Admin.model.Base',
+  extend: 'Admin.model.Base',
 
-    fields: [
-        {
-            name: 'year'
-        },
-        {
-            name: 'data'
-        }
-    ]
+  fields: [
+    {
+      name: 'year'
+    },
+    {
+      name: 'data'
+    }
+  ]
 });

@@ -1,18 +1,18 @@
 Ext.define('Admin.model.search.Attachment', {
-    extend: 'Admin.model.Base',
+  extend: 'Admin.model.Base',
 
-    fields: [
-        {
-            type: 'int',
-            name: 'id'
-        },
-        {
-            type: 'string',
-            name: 'url'
-        },
-        {
-            type: 'string',
-            name: 'title'
-        }
-    ]
+  fields: [
+    {
+      type: 'int',
+      name: 'id'
+    },
+    {
+      type: 'string',
+      name: 'url'
+    },
+    {
+      type: 'string',
+      name: 'title'
+    }
+  ]
 });

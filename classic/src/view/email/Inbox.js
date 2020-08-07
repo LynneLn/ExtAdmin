@@ -13,6 +13,7 @@ Ext.define('Admin.view.email.Inbox', {
         preserveScrollOnReload: true
     },
 
+    //一个selection model实例或配置对象。在后一种情况下， selType配置选项确定此配置应用于哪种类型的选择模型。
     selModel: {
         selType: 'checkboxmodel',
         checkOnly: true,
@@ -33,8 +34,8 @@ Ext.define('Admin.view.email.Inbox', {
             menuDisabled: true,
             text: '<span class="x-fa fa-heart"></span>',
             width: 40,
-            renderer: function(value) {
-                return '<span class="x-fa fa-heart'+ (value ? '' : ' inactive') +'"></span>';
+            renderer: function (value) {
+                return '<span class="x-fa fa-heart' + (value ? '' : ' inactive') + '"></span>';
             }
         },
         {
@@ -51,7 +52,7 @@ Ext.define('Admin.view.email.Inbox', {
             dataIndex: 'has_attachments',
             text: '<span class="x-fa fa-paperclip"></span>',
             width: 40,
-            renderer: function(value) {
+            renderer: function (value) {
                 return value ? '<span class="x-fa fa-paperclip"></span>' : '';
             }
         },
