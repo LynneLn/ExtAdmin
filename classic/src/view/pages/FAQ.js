@@ -36,7 +36,6 @@ Ext.define('Admin.view.pages.FAQ', {
                     visible: true
                 }
             },
-
             items: [
                 {
                     xtype: 'panel',
@@ -65,14 +64,14 @@ Ext.define('Admin.view.pages.FAQ', {
                         },
                         {
                             xtype: 'button',
-                            ui:'soft-blue',
+                            ui: 'soft-blue',
                             margin: '20 20 20 20',
                             text: 'Contact Us'
                         }
                     ]
                 }
             ]
-    },
+        },
         {
             xtype: 'panel',
             ui: 'light',
@@ -97,19 +96,19 @@ Ext.define('Admin.view.pages.FAQ', {
                     items: [
                         {
                             title: 'How can I access high resolution images?',
-                            iconCls:'x-fa fa-caret-down'
+                            iconCls: 'x-fa fa-caret-down'
                         },
                         {
                             title: 'Can I download the application on my PC?',
-                            iconCls:'x-fa fa-caret-down'
+                            iconCls: 'x-fa fa-caret-down'
                         },
                         {
                             title: 'How often does the database get updated?',
-                            iconCls:'x-fa fa-caret-down'
+                            iconCls: 'x-fa fa-caret-down'
                         },
                         {
                             title: 'Can I use the downloaded images on a commercial website?',
-                            iconCls:'x-fa fa-caret-down'
+                            iconCls: 'x-fa fa-caret-down'
                         }
                     ]
                 },
@@ -127,19 +126,19 @@ Ext.define('Admin.view.pages.FAQ', {
                     items: [
                         {
                             title: 'What are the different membership plans?',
-                            iconCls:'x-fa fa-caret-down'
+                            iconCls: 'x-fa fa-caret-down'
                         },
                         {
                             title: 'Can I change my plan in between?',
-                            iconCls:'x-fa fa-caret-down'
+                            iconCls: 'x-fa fa-caret-down'
                         },
                         {
                             title: 'How can I deactivate my account?',
-                            iconCls:'x-fa fa-caret-down'
+                            iconCls: 'x-fa fa-caret-down'
                         },
                         {
                             title: 'Can I transfer my account to another user?',
-                            iconCls:'x-fa fa-caret-down'
+                            iconCls: 'x-fa fa-caret-down'
                         }
                     ]
                 },
@@ -157,15 +156,15 @@ Ext.define('Admin.view.pages.FAQ', {
                     items: [
                         {
                             title: 'What are the payment methods you accept?',
-                            iconCls:'x-fa fa-caret-down'
+                            iconCls: 'x-fa fa-caret-down'
                         },
                         {
                             title: 'What is the refund policy?',
-                            iconCls:'x-fa fa-caret-down'
+                            iconCls: 'x-fa fa-caret-down'
                         },
                         {
                             title: 'How long does it take to process my payment?',
-                            iconCls:'x-fa fa-caret-down'
+                            iconCls: 'x-fa fa-caret-down'
                         }
                     ]
                 }
